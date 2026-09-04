@@ -1,0 +1,26 @@
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+*.iml
+.idea/
+.vscode/
+
+backend/.env
+node_modules/
+
+# Arquivos locais do Android/iOS que podem conter segredos ou certificados.
+android/key.properties
+android/app/*.jks
+android/app/*.keystore
+
+# Segredos e arquivos do sistema.
+*.pem
+*.p12
+*.mobileprovision
+google-services.json
+GoogleService-Info.plist
